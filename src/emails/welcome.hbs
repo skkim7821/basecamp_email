@@ -1,0 +1,60 @@
+---
+layout: default.hbs
+subject: welcome
+---
+<span class="preheader">
+  We're ready to activate your account.
+  All we need to do is make sure this is your email address.
+</span>
+<div class="header">
+  <table>
+    <tr>
+      <td class="align-left">
+        <table cellpadding="0" cellspacing="0" >
+          <tr>
+            <td class="title-logo">
+              <a href="http://www.google.com"><img src="../src/img/logo3x.png" width="33" height="33" alt="basecamp"></a>
+            </td>
+            <td class="title-wrapper">
+              <span class="title">basecamp</span>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<table class="main">
+  <tr>
+    <td class="wrapper">
+      <table>
+        <tr>
+          <td class="align-center">
+            <h2>Hello!</h2>
+            <p>
+              We're ready to activate your account.
+              All we need to do is make sure this is your email address.
+            </p>
+            {{> divider type='none' }}
+            {{> button type='primary' align='center'  url='https://github.com/leemunroe/grunt-email-workflow' title='Confirm This Email' }}
+            {{> divider type='none' }}
+            <p class="disclaimer">
+              If you didn't create a Basecamp account,
+              just delete this email and everything will go back to the way it was.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<div class="footer">
+  <table>
+    <tr>
+      <td class="align-center">
+        <a href="http://www.google.com"><img src="../src/img/logo-grey3x.png" width="128" height="33" alt="basecamp"></a>
+        <p>React & Node boilderpalte for web, mobile</p>
+      </td>
+    </tr>
+  </table>
+</div>

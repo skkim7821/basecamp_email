@@ -3,11 +3,11 @@
 ------------------------------------- */
 
 $padding: 30px; // For consistent padding
-$grey: #f6f6f6; // Background color
+$grey: #EAECED; // Background color
 $width: 580px; // Width of the content area
-$br: 3px; // Border radius
-$btn-br: 5px; // Border radius
-$primary-color: #348eda; // Primary color for buttons and links
+$br: 0; // Border radius
+$btn-br: 0; // Border radius
+$primary-color: #F87ECB; // Primary color for buttons and links
 $font-color: #111111; // Default font color
 
 // Typography
@@ -15,8 +15,8 @@ $font-color: #111111; // Default font color
 
 $body-font-family:          "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !default;
 $body-font-weight:          400 !default;
-$body-font-size:            14px !default;
-$body-font-color:           #555 !default;
+$body-font-size:            16px !default;
+$body-font-color:           #7E8890 !default;
 $body-line-height:          1.6 !default;
 
 // Notices
@@ -37,5 +37,5 @@ $notice-margin:             10px 0 !default;
 // Dividers
 // --------
 
-$divider-margin:			20px 0 !default;
+$divider-margin:			10px 0 !default;
 $divider-color:				#ccc !default;

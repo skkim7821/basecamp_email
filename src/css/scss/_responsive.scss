@@ -2,7 +2,7 @@
     RESPONSIVE AND MOBILE FRIENDLY STYLES
 ------------------------------------- */
 
-table[class=body]{
+table[class=body] {
   @media only screen and (max-width: $width+40) {
 
     // Type
@@ -25,21 +25,74 @@ table[class=body]{
       font-size: 16px !important;
     }
 
+    .msg-title {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    p {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      font-size: 14px !important;
+    }
+
+    .disclaimer {
+      font-size: 12px !important;
+      color: #8E979F !important;
+      line-height: 1.5 !important;
+    }
+
     // Spacing
-    .content,
+    // .content,
+    // .wrapper {
+    //   padding: 10px !important;
+    // }
+
+    .content {
+      padding: 0 !important;
+    }
+
     .wrapper {
-      padding: 10px !important;
+      padding: 20px !important;
     }
 
     .container {
       padding: 0 !important;
+      margin: 0 !important;
       width: 100% !important;
+      border-collapse: collapse;
+    }
+
+    .side_dummy {
+      display: none;
+    }
+
+    .main {
+      border: none !important;
+    }
+
+    .title-logo {
+      width: 53px !important;
+    }
+    .title-logo > a {
+      padding-left: 20px !important;
+    }
+
+    .header {
+      margin-bottom: 14px !important;
+      margin-top: 14px !important;
     }
 
     // Buttons
     .btn table,
     .btn a {
       width: 100% !important;
+    }
+
+    .footer .align-center {
+      p {
+        font-size: 12px !important;
+      }
     }
   }
 }

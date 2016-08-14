@@ -14,7 +14,7 @@ body{
 /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
 .container {
   display: block;
-  Margin: 0 auto !important; /* makes it centered */
+  margin: 0 auto !important; /* makes it centered */
   max-width: $width;
   padding: 10px;
   width: auto !important;
@@ -54,6 +54,21 @@ body{
   margin-bottom: $padding;
   margin-top: ($padding - 10);
   width: 100%;
+
+  .title-logo {
+    width: 33px;
+  }
+  .title-wrapper {
+    vertical-align: middle;
+
+    .title {
+      display: inline-block;
+      position: relative;
+      top: -2px;
+      padding-left: 10px;
+      font-size: 18px;
+    }
+  }
 }
 
 .footer {

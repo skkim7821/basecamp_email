@@ -2,7 +2,7 @@
   DIVIDERS
 ------------------------------------- */
 
-.divider {
+.divider, .space {
   border-collapse: separate;
 
   &-spacer {
@@ -17,4 +17,11 @@
     margin: 0;
     padding: 0;
   }
+
+  &-none {
+    td {
+      border-top: none;
+    }
+  }
+
 }
