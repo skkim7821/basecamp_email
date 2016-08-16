@@ -2,8 +2,10 @@
 layout: default.hbs
 subject: Basic
 ---
-<span class="preheader">We heard you need a password reset. Click the link below and you'll be
-redirected to a secure site from which you can set a new password.</span>
+<span class="preheader">
+  We're ready to activate your account.
+  All we need to do is make sure this is your email address.
+</span>
 <div class="header">
   <table>
     <tr>
@@ -28,10 +30,10 @@ redirected to a secure site from which you can set a new password.</span>
       <table>
         <tr>
           <td class="align-center">
-            <h2>Hello SK Kim!</h2>
+            <h2>Hello</h2>
             <p>
-              We heard you need a password reset. Click the link below and you'll be
-              redirected to a secure site from which you can set a new password.
+              We're ready to activate your account.
+              All we need to do is make sure this is your email address.
             </p>
             {{> divider type='none' }}
             {{> button type='primary' align='center'  url='https://github.com/leemunroe/grunt-email-workflow' title='Confirm This Email' }}
@@ -41,13 +43,4 @@ redirected to a secure site from which you can set a new password.</span>
     </td>
   </tr>
 </table>
-<div class="footer">
-  <table>
-    <tr>
-      <td class="align-center">
-        <a href="http://www.google.com"><img src="../src/img/logo-grey3x.png" width="128" height="33" alt="basecamp"></a>
-        <p>React & Node boilderpalte for web, mobile</p>
-      </td>
-    </tr>
-  </table>
-</div>
+{{> footer }}
